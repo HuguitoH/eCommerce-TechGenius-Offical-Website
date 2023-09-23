@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details</title>
+
+    <!-- Boostrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/2ab63d54b5.js" crossorigin="anonymous"></script>
+
+    <!---Css-->
+    <link rel="stylesheet" href="style.css">
+
+        <style>
+            
+            .small-img-group{
+                display: flex;
+                justify-content: space-between;
+            }
+
+            .small-img-col{
+                flex-basis: 24%;
+                cursor: pointer;
+            }
+
+            .sproduct select{
+                display: block;
+                padding: 5px 10px;
+            }
+
+            .sproduct input{
+               width: 50px; 
+               height: 40px;
+               padding-left:10px ;
+               font-size: 16px;
+               margin-right: 10px;
+            }
+
+            .sproduct input:focus{
+                outline: none;
+            }
+
+            .buy-btn{
+                background:#fb774b;
+                opacity: 1;
+                transition: 0.3s all;
+            }
+            
+
+        </style>
+
+</head>
+<body>
+
+    <!--Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white py-3 fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">TechGenius</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span><i id="bar" class="fa-solid fa-bars"></i></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+        
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="shop.html">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="blog.html">Blog</a>
+                        </li>
+        
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About Us</a>
+                        </li>
+        
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact Us</a>
+                        </li>
+        
+                        <li class="nav-item">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+                        </li>
+        
+        
+        
+        
+                </div>
+            </div>
+    </nav>
+
+    <section class=" container sproduct my-5 pt-5">
+        <div class="row mt-5">
+            <div class="col-lg-5 col-md-12 col-12">
+                <img class="img-fluid w-100 pb-1" src="img/shop/d4.png" id="MainImg" alt="">
+
+                <div class="small-img-group">
+                    <div class="small-img-col">
+                        <img src="/img/shop/d4.png" width="100%" class="small-img" alt="">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="/img/shop/d4 1.png" width="100%" class="small-img" alt="">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="/img/shop/d4 3.png" width="100%" class="small-img" alt="">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="/img/shop/d4 4.png" width="100%" class="small-img" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-12">
+                <h6>Desk / MAGNUS Pro</h6>
+                <h3 class="py-4">MAGNUS Pro</h3>
+                <h2>999€</h2>
+                <select class="my-3">
+                    <option>Select Size</option>
+                    <option>XXL</option>
+                    <option>XL</option>
+                    <option>L</option>
+                    <option>M</option>
+                    <option>S</option>
+                </select>
+                <input type="number" value="1">
+                <button class="buy-btn">Add to Cart</button>
+                <h4 class="mt-5 mb-5">Product Details</h4>
+                <p>MAGNUS Pro is the world's first metal sit-stand desk to offer an integrated single-cable power solution and premium
+                cable management. It comes complete with its own modular and magnetic ecosystem of accessories.</p>
+            </div>
+        </div>
+    </section>
+
+    <!--Featured-->
+    <section id="featured" class="my-5 pb-5">
+        <div class="container text-center mt-5 py-5">
+            <h3>Related Products</h3>
+            <hr class="mx-auto">
+        </div>
+        <div class="row mx-auto container-fluid">
+            <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="/img/featured/d1.png" alt="">
+                <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <h5 class="p-name">Solomon</h5>
+                <h4 class="p-price">800€</h4>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+            <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="/img/featured/s1.png" alt="">
+                <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <h5 class="p-name">Sony wh-1000xm4 </h5>
+                <h4 class="p-price">300€</h4>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+            <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="/img/featured/p1.png" alt="">
+                <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <h5 class="p-name">H7 Flow RTX 4070 Ti</h5>
+                <h4 class="p-price">4800€</h4>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+            <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="/img/featured/d2.png" alt="">
+                <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <h5 class="p-name">Beliani Desk</h5>
+                <h4 class="p-price">1200€</h4>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+    
+        </div>
+    </section>
+
+
+
+    <!--Footer-->
+    <footer class="mt-5 py-5">
+        <div class="row container mx-auto pt-5">
+            <div class="footer-one col-lg-3 col-md-6 col-12">
+                <h5>TechGenius</h5>
+                <p class="pt-3">Explore our catalog of premium technology: high-quality computers, desktops, peripherals and
+                    headphones to enhance your digital experience.</p>
+            </div>
+            <div class="footer-one col-lg-3 col-md-6 col-12 mb-3">
+                <h5 class="pb-2">Featured</h5>
+                <ul class="text-uppercase list-unstyled">
+                    <li><a href="#">Desk</a></li>
+                    <li><a href="#">PC</a></li>
+                    <li><a href="#">Monitor</a></li>
+                    <li><a href="#">Headset</a></li>
+                    <li><a href="#">Peripheral</a></li>
+                </ul>
+            </div>
+            <div class="footer-one col-lg-3 col-md-6 col-12 mb-3">
+                <h5 class="pb-2">Contact Us</h5>
+                <div>
+                    <h6 class="text-uppercase">Adress</h6>
+                    <p>Berlin, Deutschland</p>
+                </div>
+                <div>
+                    <h6 class="text-uppercase">Phone</h6>
+                    <p>+49 30 12345678</p>
+                </div>
+                <div>
+                    <h6 class="text-uppercase">Email</h6>
+                    <p>contact@techgenius.com</p>
+                </div>
+            </div>
+            <div class="footer-one col-lg-3 col-md-6 col-12">
+                <h5 class="pb-2">Instagram</h5>
+                <div class="row ">
+                    <img class="img-fluid w-25 h-100 m-2" src="/img/insta/i1.png" alt="">
+                    <img class="img-fluid w-25 h-100 m-2" src="/img/insta/i2.png" alt="">
+                    <img class="img-fluid w-25 h-100 m-2" src="/img/insta/i3.png" alt="">
+                    <img class="img-fluid w-25 h-100 m-2" src="/img/insta/i4.png" alt="">
+                    <img class="img-fluid w-25 h-100 m-2" src="/img/insta/i5.png" alt="">
+                    <img class="img-fluid w-25 h-100 m-2" src="/img/insta/i6.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="copyright mt-5">
+            <div class="row container mx-auto">
+                <div class="col-lg-3 col-md-6 col-12 mb-4">
+                    <img src="/img/payment.png" alt="">
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 text-nowrap mb-2">
+                    <p>TechGenius eCommerce © 2023. All Rights Reserved</p>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+            crossorigin="anonymous"></script>
+
+        <script>
+            var MainImg = document.getElementById('MainImg');
+            var smalling = document.getElementsByClassName('small-img');
+
+            smalling[0].onclick = function(){
+                MainImg.src = smalling[0].src;
+            }
+
+            smalling[1].onclick = function () {
+                    MainImg.src = smalling[1].src;
+            }
+
+            smalling[2].onclick = function () {
+                    MainImg.src = smalling[2].src;
+            }
+
+            smalling[3].onclick = function () {
+                    MainImg.src = smalling[3].src;
+            }
+
+        </script>
+    </body>
+</html>
