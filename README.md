@@ -29,14 +29,5 @@ This project is under the [TechGenius] license.
 
 ---
 
-Visit [TechGenius.com](https://www.techgenius.com) and join us in our mission to bring innovation to your daily life.
-
-Follow us on social media to stay updated with the latest news and exclusive offers:
-
-- [LinkedIn](https://www.linkedin.com/TechGenius)
-- [Instagram](https://www.instagram.com/TechGenius)
-
-Thank you for being a part of TechGenius!
-
 Hey! That's what I've done, getting better every day!
 I hope you like it and give me a star!
